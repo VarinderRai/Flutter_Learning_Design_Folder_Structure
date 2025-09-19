@@ -17,13 +17,20 @@ class LoginPage extends StatelessWidget {
             children: [
               Text("Welcome Back", style: AppTextStyles.headline),
               const SizedBox(height: 20),
-              const AppTextField(label: "Email2", icon: Icons.email),
+              const AppTextField(label: "Email", icon: Icons.email),
               const SizedBox(height: 16),
-              const AppTextField(label: "Password", icon: Icons.lock, obscure: true),
+              const AppTextField(
+                label: "Password",
+                icon: Icons.lock,
+                obscure: true,
+              ),
               const SizedBox(height: 24),
-              AppButton(text: "Login", onPressed: () {
-                // TODO: hook into Auth logic later
-              }),
+              AppButton(
+                text: "Login",
+                onPressed: () {
+                  // TODO: hook into Auth logic later
+                },
+              ),
             ],
           ),
         ),
