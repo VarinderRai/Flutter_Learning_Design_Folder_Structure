@@ -17,7 +17,7 @@ class LoginPage extends StatelessWidget {
             children: [
               Text("Welcome Back", style: AppTextStyles.headline),
               const SizedBox(height: 20),
-              const AppTextField(label: "Email", icon: Icons.email),
+              const AppTextField(label: "Email(s)", icon: Icons.email),
               const SizedBox(height: 16),
               const AppTextField(
                 label: "Password",
